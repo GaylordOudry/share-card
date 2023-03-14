@@ -1,0 +1,28 @@
+@import "../../styles.scss";
+
+.link-copier-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 672px;
+	height: 56px;
+
+	background-color: $tertiary-color;
+	border-radius: 12px;
+
+	font-size: 16px;
+
+	.link {
+		font-weight: 400;
+	}
+
+	.copier {
+		font-weight: 600;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+

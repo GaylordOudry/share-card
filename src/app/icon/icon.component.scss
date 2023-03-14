@@ -1,0 +1,14 @@
+@import "../../styles.scss";
+
+.icon-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 82px;
+	height: 82px;
+
+	background-color: $tertiary-color;
+	border-radius: 50%;
+}
+
