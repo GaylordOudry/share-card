@@ -1,0 +1,27 @@
+@import "../styles.scss";
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 840px;
+	height: 420px;
+	padding: 0 79px 0 89px;
+	background-color: $secondary-color;
+	border-radius: 40px;
+	box-shadow: 12px 12px 0 0 $shadow;
+	box-sizing: border-box;
+	font-family: "Mulish", sans-serif;
+
+	h1 {
+		margin: 0;
+		margin-bottom: 32px;
+	}
+
+	p {
+		margin-bottom: 17px;
+		font-size: 18px;
+		font-weight: 600;
+	}
+}
+

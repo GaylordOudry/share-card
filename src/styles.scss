@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+$primary-color: #dacdc9;
+$secondary-color: #ede9e2;
+$tertiary-color: #d9d9d9;
+$shadow: #c5aea7;
+$dark: #1e1411;
+
+body,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: $primary-color;
+}
+
